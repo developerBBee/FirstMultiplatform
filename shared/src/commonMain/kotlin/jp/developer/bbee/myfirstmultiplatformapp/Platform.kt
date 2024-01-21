@@ -1,0 +1,9 @@
+package jp.developer.bbee.myfirstmultiplatformapp
+
+interface Platform {
+    val name: String
+}
+
+expect fun getPlatform(): Platform
+
+expect val num: Int
